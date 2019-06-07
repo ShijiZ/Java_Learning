@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class DeepCopy {
+    public static void main(String[] args){
+
+        int [] source = {1,2,3,4,5,6};
+        int [] destination = new int[6];
+
+        for (int i = 0; i < source.length; ++i){
+            destination[i] = source[i];
+        }
+
+        //Converting array to string
+        System.out.print(Arrays.toString(destination));
+    }
+}
